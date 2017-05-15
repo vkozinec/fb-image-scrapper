@@ -1,6 +1,6 @@
 # Python image scrapper
 
-Python image scrapper is simple script to download images from groups on Facebook.
+Python image scrapper is simple script to download images from pages on Facebook.
 
 ## Getting Started
 
