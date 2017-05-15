@@ -4,7 +4,7 @@ from collections import defaultdict
 
 columns = defaultdict(list) # each value in each column is appended to a list
 
-with open('disu.txt') as f:
+with open('data.txt') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
@@ -34,9 +34,8 @@ for count, one in enumerate(strings[:20]):
     newurl = ('https://graph.facebook.com/'+ one +'/picture')
  
     try:
-        urllib.request.urlretrieve(newurl, 'slike/test{}.jpg'.format(str(count)))
+        urllib.request.urlretrieve(newurl, 'images/test{}.jpg'.format(str(count)))
         print(newurl, "Downloaded")
     except Exception as e:
         print(type(e))
-        print(inst.e)
         print(e)
