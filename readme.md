@@ -26,7 +26,7 @@ After some time you will end with .csv file.
 
 Create folder **images** in project root.
 
-Rename file to .txt and change it on line **7** at **index.py** file.
+Rename file .csv file to .txt and change inside index.py line **7**.
 
 ```
 with open('__YOUR_FILE_NAME.txt__') as f:
